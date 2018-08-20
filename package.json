@@ -1,0 +1,39 @@
+{
+    "name": "wallet.trip.io",
+    "version": "0.1.0",
+    "dependencies": {
+        "@nuxtjs/axios": "^5.1.1",
+        "@nuxtjs/proxy": "^1.1.4",
+        "await-to-js": "^2.0.1",
+        "babel-polyfill": "^6.26.0",
+        "clipboard-copy": "^2.0.0",
+        "cookie-universal-nuxt": "^1.0.14",
+        "nuxt": "latest",
+        "nuxt-i18n": "^2.7.1",
+        "qrcode": "^1.2.0",
+        "trip-wallet": "^0.1.12"
+    },
+    "config": {
+        "nuxt": {
+            "host": "0.0.0.0",
+            "port": "15840"
+        }
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "dev:test": "cross-env APP_CONF=test nuxt",
+        "dev:prod": "cross-env APP_CONF=prod nuxt",
+        "build": "nuxt build",
+        "build:test": "cross-env APP_CONF=test nuxt build",
+        "build:prod": "cross-env APP_CONF=prod nuxt build",
+        "start": "nuxt start"
+    },
+    "devDependencies": {
+        "archiver": "^2.1.1",
+        "cross-env": "^5.1.4",
+        "nexus-deployer": "^0.1.8",
+        "node-sass": "^4.7.2",
+        "rimraf": "^2.6.2",
+        "sass-loader": "^6.0.7"
+    }
+}

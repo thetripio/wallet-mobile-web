@@ -1,0 +1,10 @@
+.DS_Store
+.vscode
+node_modules/
+npm-debug.log*
+.nuxt
+package-lock.json
+yarn-error.log
+.project
+dist/
+deploy
