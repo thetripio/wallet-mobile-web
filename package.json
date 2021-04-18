@@ -1,6 +1,6 @@
 {
     "name": "wallet.trip.io",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": {
         "@nuxtjs/axios": "^5.1.1",
         "@nuxtjs/proxy": "^1.1.4",
